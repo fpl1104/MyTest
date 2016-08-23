@@ -13,10 +13,14 @@
 @end
 
 @implementation ViewController
+-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"这是我的第一个项目");
+    self.view.backgroundColor=[UIColor blueColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {
